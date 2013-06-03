@@ -1,0 +1,88 @@
+﻿html {
+	background: url(../img/abg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	text-align: center;
+}
+
+div.mat_table
+{
+	background-color: #e3e3e3;
+	border: 1px solid #CFCFCF;
+	position:absolute;
+	top:6%;
+	left:17%;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	_height: 100%; /* IE FIX */	
+}
+
+input
+{
+	    /*** Rounded Corners ***/
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    /*** Background Gradient - 2 declarations one for Firefox and one for Webkit ***/
+    background:  -moz-linear-gradient(19% 75% 90deg,#eee,#fff);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee)); 
+	text-align:center;
+}
+
+table
+{
+	width:100%;
+	font:Century Gothic; 
+	color:#000;
+	margin:12px;
+	text-align:center;
+	left:20%;
+}
+
+select
+{
+	height:23px;
+    color: #000;
+	background-color:#eee;
+    border-top: 1px solid #888;
+	/*** Rounded Corners ***/
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+td.errors
+{
+	color: red;
+}
+
+td.h_materials
+{
+	color:#2F2F2F;
+	text-align:left;
+}
+
+h1.h_material
+{
+	background: #BFBFBF;
+	color: #2F2F2F;
+	border: 1px solid #9F9F9F;
+	-moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+h2.h_material
+{
+	background: #BFBFBF;
+	color: #2F2F2F;
+	border: 1px solid #9F9F9F;
+	-moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+
+h3.h_material
+{
+	color: 	#2F2F2F;
+	text-align:center;
+}

@@ -1,0 +1,93 @@
+/* include the specific font family */
+@font-face {
+    font-family: 'ModernPictogramsNormal';
+    src: url('font/modernpics-webfont.eot');
+    src: url('font/modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/modernpics-webfont.woff') format('woff'),
+         url('font/modernpics-webfont.ttf') format('truetype'),
+         url('font/modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* button general settings */	
+.button, .submit {  
+	height: 40px; 
+	line-height: 200%;
+    color: white;
+	font-size : 22px;
+    text-align: center;  
+    position: relative;
+	text-decoration: none;
+
+    font-family: "Century Gothic";  
+    font-weight: bold;  
+	
+	 /* TEXT SHADOW*/  
+     text-shadow: 1px 1px 1px black; 
+}
+
+/* button display specification */  
+.confirm,.cancel,.register{
+	display: block; 
+	
+     /* BORDER RADIUS */  
+     -moz-border-radius: 10px;  
+     -webkit-border-radius: 10px;  
+     border-radius: 10px;  
+  
+     border: 1px solid #368DBE;  
+     border-top: 1px solid #c3d6df;  
+  
+     /* BOX SHADOW */  
+     -moz-box-shadow: 0 1px 3px black;  
+     -webkit-box-shadow: 0 1px 3px black;  
+     box-shadow: 0 1px 3px black;  
+} 
+ 
+/* button decoration */  
+.confirm:before{
+    font-family: ModernPictogramsNormal;  
+    color: #00C700;  
+    font-size: 50px;  
+    float: left;  
+    margin-right: -15px;  
+    text-shadow: 0 1px 0 #4190AF; 
+    content: '%';  
+}
+.cancel:before{
+	font-family: ModernPictogramsNormal;  
+    color: #C80000;  
+    font-size: 50px;  
+    float: left;  
+    margin-right: -15px;   
+    text-shadow: 0 1px 0 #4190AF; 
+    content: 'x';  
+}
+.register:before{
+	font-family: ModernPictogramsNormal;  
+    color: #09232F;  
+    font-size: 50px;  
+    float: left;  
+    margin-right: -15px;    
+    text-shadow: 0 1px 0 #4190AF; 
+    content: 'f';  
+}
+
+/* on hover */  
+.confirm:hover{
+        background: #87DB21;  
+        background: -moz-linear-gradient(top, #B8FF61, #9CEB3D 50%, #87DB21 51%, #6EC702);  
+        background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #B8FF61), color-stop(.5, #9CEB3D), color-stop(.51, #87DB21), to(#6EC702));  
+}
+.cancel:hover{
+        background: #F21818;  
+        background: -moz-linear-gradient(top, #FF3D3D, #FF2929 50%, #F21818 51%, #C70000);  
+        background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #FF3D3D), color-stop(.5, #FF2929), color-stop(.51, #F21818), to(#C70000));  
+}
+
+.register:hover{
+        background: #014464;  
+        background: -moz-linear-gradient(top, #0c5f85, #0b5273 50%, #024869 51%, #003853);  
+        background: -webkit-gradient(linear, left top, left bottombottom, color-stop(0, #0c5f85), color-stop(.5, #0b5273), color-stop(.51, #024869), to(#003853));  
+}

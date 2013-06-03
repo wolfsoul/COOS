@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+		
+#example {
+	position: relative;
+	width: 500px;
+	padding: 20px;
+}
+		
+p {
+	margin: 7px 0 0 0;
+}
+		
+#purr-container {			
+	border:0;	
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-image:none;
+	background-color:transparent;
+}
+		
+.notice {
+	border:0;
+	position: relative;
+	width: 324px;
+	background-image:none;
+	background-color:transparent;
+}
+
+.notice .close	{
+	border:0;
+	position: absolute; 
+	top: 12px; 
+	right: 12px;
+	 display: block; 
+	 width: 18px; 
+	 height: 17px; 
+	 text-indent: -9999px; 
+	 background: url(../img/purrClose.png) no-repeat 0 10px;
+}
+		
+.notice-body {	
+	border-radius: 0px;		
+	border:0;
+	min-height: 50px;
+	padding: 22px 22px 0 22px;
+	background: url(../img/purrTop.png) no-repeat left top;
+	color: #f9f9f9;
+}
+			
+.notice-body img	{
+	width: 50px; 
+	margin: 0 10px 0 0; 
+	float: left;
+}
+			
+.notice-body h3	{
+	margin: 0; 
+	font-size: 1.2em;
+}
+
+.notice-body p{
+	margin: 5px 0 0 60px;
+	font-size: 0.8em; 
+	line-height: 1.4em;
+}
+		
+.notice-bottom {
+	border:0;
+	height: 22px;
+	background: url(../img/purrBottom.png) no-repeat left top;
+	background-color:transparent;
+}

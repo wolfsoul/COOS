@@ -1,0 +1,149 @@
+html {
+	background: url(../img/bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header{
+    font-family: "Century Gothic"; 
+	color: #000000;
+	text-align: center;
+	outline: 0px solid #000000;
+}
+
+body{
+	font-family: helvetica, arial; 
+}
+	
+footer{
+	padding: 20px;
+	font-size: 16pt;
+	text-align: center;
+}
+
+li{
+	display: inline;
+	list-style: none;
+	text-align: left;
+}
+
+a{	
+	padding-left: 40px;
+	padding-right: 40px;
+	text-shadow: 1px 1px 2px #FE9;
+	color: #300;
+}
+
+a#admin_login{
+	color :#90796f;
+	text-shadow:none;
+}
+	
+img{
+	top:5px;
+	right:5px;
+}
+
+h3{
+	border-bottom: 3px double;
+	text-decoration: underline;
+	font-size: 20pt;
+	color:#f6dd5e;
+	text-shadow: 1px 1px 2px black;
+	background-color:transparent;	
+}
+
+h3#uid{
+	border-bottom:hidden;
+	text-decoration: none;
+	font-size: 20pt;
+	background-color:transparent;
+	text-align:left;	
+	}
+
+h4,p {
+	font-size: 15pt;
+}
+
+h5{
+	font-size: 16pt;
+	text-shadow: 1px 1px 2px #ccc86f; 
+	border-bottom: 2px double;
+}
+
+div{
+	width: auto;
+	height: auto;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	border-radius: 32px;
+	margin: auto;
+	background: url(../img/opacity.png)
+}
+div#crepe, div#crepe tr{
+	background-image:none;
+	color:#FE9;
+	text-shadow: 1px 1px 2px black;	
+}
+
+div.mat{
+	width:40%;
+	display:inline-block;
+	position:relative;
+	vertical-align:text-top;
+	background-image:none;
+	border:none;
+}
+
+div#login{
+	width: 450px;
+	height: 270px;
+	font-size: 20pt;
+	color :  #fe9;
+	position: fixed ; 
+	visibility: hidden;
+}
+
+span.exit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #C80000;
+	color: white;
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: bold;
+	padding: 0 .3em;
+	cursor: pointer;
+	border-left: 1px dotted 
+	white;
+	border-bottom: 1px dotted 
+	white;
+}
+
+
+.login-class
+{
+background:beige;
+margin-right:88%;
+border-style:outset;
+border-color:black;
+border-width:2px;
+left:1100px;
+top:0px;
+width:270px;
+position:relative;
+}
+
+.after-login
+{
+background-color:beige;
+position:absolute;
+text-align:center;
+left:1100px;
+top:0px;
+width:130px;
+border:solid 1px;
+}
