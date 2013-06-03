@@ -1,6 +1,3 @@
-Creperie Online Order System
-============================
-
 #Description:
 
 This is a Web Application to order online your favourite crep but it
