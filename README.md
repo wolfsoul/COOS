@@ -1,7 +1,8 @@
 #Description:
 
 This is a Web Application to order online your favourite crep but it
-can easily adapted for other e-commerce uses. 
+can easily adapted for other e-commerce uses. Technologies used: 
+HTML, CSS, PHP, Javascript, JQuery, MySQL  
 
 #General Information:
 
