@@ -2,12 +2,12 @@
 
 This is a Web Application for ordering online your favourite crep but it
 can easily adapted for other e-commerce uses. 
-Technologies used: HTML, CSS, PHP, Javascript, JQuery, MySQL  
+Languages used: HTML, CSS, PHP, Javascript, JQuery, MySQL  
 
 #General Information:
 
-This project was created for the lesson "Software Engineering II"
-in Technological Institution of Serres, Greece by a team of students (2012).
+This project was created for the purpose of the lesson "Software Engineering II"
+in Technological Institution of Serres, Greece by a team of university undergraduate students (2012).
 
 #Members & Roles
 
